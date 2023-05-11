@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+p{
+    font-size: 30px;
+    margin-top: 22px;
+    
+    
+}
+h1{
+ font-size: 70px;   
+}
+.loading{
+    display: flex;
+   margin-left: 80px;
+
+    
+}
+.qr{
+    align-items: center;
+    margin-left: 250px;
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+ body{
+  background-color: #b3c6ff;
+  
+ } 
+
+.container{
+margin-top: 20px;
+
+}
+.expo{
+    margin-left: 110px;
+}
+.wrapper{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .search_box{
+  width: 400px;
+  background: #fff;
+  border-radius: 5px;
+  height: 55px;
+  display: flex;
+  padding: 1px;
+  box-shadow: 0 8px 6px -10px #b3c6ff;
+}
+
+
+
+.wrapper .search_box .default_option{
+  width: 350px;
+  height: 100%;
+  position: relative;
+}
+
+.wrapper .search_box .default_option .input{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 38px;
+  color: #6f768d;
+}
+
+
+
+.wrapper .search_box .search_field{
+  width: 450px;
+  height: 100%;
+  position: relative;
+  
+}
+.A{
+  display: flex;
+  width: 450px;
+  height: 100%;
+  position: relative;
+}
+.G{
+  width: 450px;
+  height: 100%;
+  position: relative;
+}
+
+
+
+.wrapper .search_box .search_field .input{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 38px;
+  color: #6f768d;
+}
+.wrapper .search_box .A .input{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 38px;
+  color: #6f768d;
+}
+.wrapper .search_box .G .input{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 38px;
+  color: #6f768d;
+}
+.buttonlogout:hover {
+  background-color: #d83e3e;
+  box-shadow: 0px 15px 20px rgba(1, 15, 5, 0.4);
+  color: rgb(255, 255, 255);
+  transform: translateY(-7px);
+}
+
+.buttonlogout{
+  font-family: "Baloo Tamma 2", cursive;
+  color: #26b9b9;
+  top:15px;
+  right: 10px;
+  width: 8%;
+  font-size: 16px;
+  position: fixed;
+  background: none;
+  border: 2px solid rgb(19, 18, 18);
+  
+}
+
+select
+{
+  align-items: center;
+  width: 150px;
+  background: #fff;
+  border-radius: 5px;
+  border: 3px solid #5078ef;
+  height: 30px;
+  display: flex;
+  box-shadow: 0 8px 6px -10px #b3c6ff;
+  font-size: 16px;
+}
+.wrapper .search_box .search_field .fas {
+  position: absolute;
+
+  top: 20px;
+  left: 200px;
+  font-size: 22px;
+  color: #5078ef;
+  cursor: pointer;
+}
+.wrapper .search_box .A .fas {
+  position: absolute;
+
+  top: 20px;
+  left: 200px;
+  font-size: 22px;
+  color: #5078ef;
+  cursor: pointer;
+}
+.wrapper .search_box .G .fas {
+  position: absolute;
+
+  top: 20px;
+  left: 200px;
+  font-size: 22px;
+  color: #5078ef;
+  cursor: pointer;
+}
+
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9fa3b1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #9fa3b1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9fa3b1;
+}
+
+#animation{
+  display: flex;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-left: 630px;
+  height: 100px;
+
+}
+.btn1{
+  border: 0px solid rgba(255,255,255,0);
+ background: rgba(255,255,255,0);
+ height: 0px;
+ width: 0px;
+}

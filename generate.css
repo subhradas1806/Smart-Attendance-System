@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(204, 242, 248);
+}
+
+.name{
+  top: -10px;
+  font-size: 25px;
+}
+#container {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 52rem;
+  height: 30rem;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 28px 20px 58px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background-color: #12adb8;
+  box-shadow: 0px 15px 20px rgba(1, 15, 5, 0.4);
+  color: rgb(255, 255, 255);
+  transform: translateY(-7px);
+}
+
+/* left part*/
+
+#left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 24rem;
+  height: 25rem;
+}
+#in {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 25px;
+  padding: 30px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: #26b9b9 3px solid underline;
+  text-underline-position: under;
+}
+
+/* Input Type */
+
+.subject_code {
+  margin-bottom: 30px;
+  font-size: large;
+  padding: 5px 25px 0 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#department_id1 {
+  margin-bottom: 30px;
+  font-size: large;
+  padding: 5px 25px 0 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.time1{
+  margin-bottom: 30px;
+  font-size: large;
+  padding: 5px 25px 0 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+input {
+  outline: 2px solid #26b9b9;
+  border: 0 outset;
+  height: 2.3rem;
+  border-radius: 5px;
+}
+input::placeholder {
+  font-weight: 500;
+  font-size: large;
+}
+select {
+  outline: 2px solid #26b9b9;
+  border: 0 outset;
+  height: 2.3rem;
+  border-radius: 5px;
+}
+select::placeholder {
+  font-weight: 500;
+  font-size: large;
+}
+/* Button */
+
+button {
+  margin-right: 8px;
+  font-weight: 700;
+}
+button{
+  width: 150px;
+	height: 40px;
+	
+	margin: 25px auto 0px auto;
+	font-family: arimo;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background:#26b9b9; 
+
+}
+.buttonlogout{
+  top:5px;
+  right: 10px;
+  width: 8%;
+  position: fixed;
+  background: none;
+  border: 2px solid black;
+  
+}
+.ad{
+  display: flex;
+  align-items: center;
+}
+
+.buttondel{
+  width: 120px;
+	height: 35px;
+	padding-left: 5px;
+   background-color: red;
+ color: white;
+}
+.buttondel:hover {
+  background-color: whitesmoke;
+  box-shadow: 0px 15px 20px rgba(1, 15, 5, 0.4);
+  color: rgb(255, 0, 0);
+  transform: translateY(-7px);
+}
+.buttongen{
+  width: 120px;
+	height: 35px;
+}
+.header{
+  font-family: "Baloo Tamma 2", cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 33px;
+  top: 15px;
+  left: 10px;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  width: 850px;
+  height: 45px;
+  margin-left:450px;
+}
+/* Right part */
+
+#right {
+  background: #26b9b9;
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  margin-top: 110px;
+}
+#image {
+  width: 310px;
+  height: 310px;
+  background:Black;
+  border-radius: 7px;
+}
+img {
+  border: black 5px solid;
+  border-radius: 7px;
+}
